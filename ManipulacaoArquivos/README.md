@@ -1,4 +1,3 @@
 # FileManipulation
 
-Nesse projeto, mostro um pouco meus conhecimentos com Manipulação de Arquivos usando a linguagem de programação Python.
-Link para repositório original: https://github.com/LuanaPBueno/FileManipulation.git
+In this project, I show a little of my knowledge with File Manipulation using the Python programming language. Link for the original repository: https://github.com/LuanaPBueno/FileManipulation.git
