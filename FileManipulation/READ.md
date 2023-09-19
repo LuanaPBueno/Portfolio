@@ -1,3 +1,3 @@
-# Portfolio
+# FileManipulation
 
-A place where you can see my main codes. Inside every folder there is a README with the infos and a link to the original repository of that project. But if you don't want to get out of this repository to another, you don't need to, all the codes and images you need is inside the folders. 
+In this project, I show a little of my knowledge with File Manipulation using the Python programming language. Link for the original repository: https://github.com/LuanaPBueno/FileManipulation.git
