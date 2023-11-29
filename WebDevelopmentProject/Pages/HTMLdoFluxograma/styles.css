@@ -1,0 +1,131 @@
+body{
+  background-color: #F0F0F0 !important;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+/* Center the course name at the top of the screen */
+#course-title {
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-shadow: 0px 3px 4px #767676;
+}
+
+/* Update the highlight color for prerequisites to light yellow */
+.highlight {
+  background-color: black;
+}
+
+/* Make sure all periods appear side by side */
+.periods {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.scroll-container {
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+.period {
+  display: inline-block;
+  flex: 1;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Make the background color of the subject boxes white */
+.subject {
+  background-color: white;
+  color: black; 
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subject:hover {
+  transform: scale(1.3);
+}
+
+.optative-subject-group {
+  background-color: white;
+  color: black; 
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.optative-subject-group:hover{
+  transform:scale(1.3); 
+}
+
+/* Estilos do novo botão */
+.button-56 {
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(0px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+      padding: 0 40px;
+  }
+}
